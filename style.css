@@ -1,0 +1,1006 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+body {
+  background: #000;
+  min-height: 200vh;
+  font-family: "adobe-clean", sans-serif;
+}
+nav {
+  z-index: 2;
+  overflow: hidden;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  height: 8rem;
+  padding-left: 15rem;
+  padding-right: 10rem;
+  box-shadow: 0 0 0.5rem black;
+}
+nav h2 {
+  font-size: 4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(17, 191, 17);
+}
+nav h2 span {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(230, 192, 69);
+}
+.hire {
+  float: right;
+  background-color: rgb(17, 191, 17);
+  width: 18rem;
+  height: 4rem;
+  border: none;
+  border-radius: 4rem;
+  color: white;
+}
+.hire:hover {
+  background-color: rgb(230, 192, 69);
+}
+.hire .fa-solid {
+  margin-left: 1rem;
+  transition: 0.1s ease-in;
+}
+.hire .fa-solid:hover {
+  transform: translateX(50%);
+}
+
+.fast {
+  color: white;
+}
+.first {
+  background-color: rgb(11, 60, 124);
+  background-size: cover;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  min-height: 70rem;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  display: flex;
+}
+.first h2 {
+  padding-top: 20rem;
+  align-items: left;
+  font-size: 4rem;
+}
+.first p {
+  padding-top: 2rem;
+  font-size: 2rem;
+}
+#but {
+  height: 10rem;
+  width: 40rem;
+  margin-top: 4rem;
+}
+#firstimg {
+  height: 60rem;
+  width: 90rem;
+  padding-left: 5rem;
+  padding-top: 10rem;
+}
+.share {
+  float: left;
+  background-color: rgb(17, 191, 17);
+  width: 25rem;
+  height: 5.4rem;
+  border: none;
+  border-radius: 4rem;
+  color: white;
+  margin-top: 4rem;
+}
+.share:hover {
+  background-color: rgb(230, 192, 69);
+}
+.share .fa-solid {
+  margin-left: 1rem;
+  transition: 0.1s ease-in;
+}
+.share .fa-solid:hover {
+  transform: translateX(50%);
+}
+.second {
+  background-color: white;
+  background-size: cover;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  min-height: 70rem;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  display: flex;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+#second1 {
+  float: right;
+  width: 60rem;
+  height: 60rem;
+  padding-top: 3.8rem;
+}
+.para h2 {
+  color: rgb(15, 15, 138);
+  font-size: 4rem;
+  margin-left: 5.5rem;
+  padding-top: 10rem;
+}
+
+.para button {
+  color: rgb(15, 15, 138);
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  border: none;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  background-color: rgb(246, 246, 221);
+  display: inline-block;
+  text-align: center;
+  box-shadow: inset 0.5px 0.5px 0.5px 0.5px rgb(115, 115, 221);
+}
+.para p {
+  margin-left: 6rem;
+  margin-top: 4rem;
+  font-size: 1.75rem;
+  color: gray;
+  line-height: 2.5rem;
+}
+.para h4 {
+  color: #000;
+  margin-left: 5.5rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+.para ul {
+  display: flex;
+}
+.para ul li h2 {
+  margin-top: 2rem;
+}
+.para ul li p {
+  margin-top: 1rem;
+}
+.third {
+  background-color: whitesmoke;
+  padding-bottom: 15rem;
+  display: flex;
+  padding-left: 10rem;
+}
+.third ul {
+  list-style-type: none;
+}
+.third .dev {
+  float: left;
+  background-color: rgb(17, 191, 17);
+  width: 25rem;
+  height: 5.4rem;
+  border: none;
+  border-radius: 4rem;
+  color: white;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  padding-right: 2.5rem;
+  box-shadow: none;
+}
+.dev:hover {
+  background-color: rgb(230, 192, 69);
+}
+.dev .fa-solid {
+  padding-left: 1rem;
+  transition: 0.1s ease-in;
+}
+.dev .fa-solid:hover {
+  transform: translateX(50%);
+}
+#third1 {
+  float: right;
+  margin-left: 15rem;
+  margin-top: 15rem;
+}
+.fourth {
+  background-color: #000;
+  height: 135vh;
+  color: white;
+  padding-top: 6rem;
+  padding-left: 15rem;
+  align-items: center;
+}
+.fourth h2 {
+  align-content: center;
+  padding-left: 22rem;
+  font-size: 4rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.image{
+  display: flex;
+}
+.container {
+  width: 8rem;
+  height: 8rem;
+  margin-left:10rem;
+  margin-top: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container:hover::before {
+  opacity: 0.7;
+}
+.container-1 {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 10rem;
+  margin-top: 8rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-1 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.container-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-1:hover::before {
+  opacity: 0.7;
+}
+.container-2 {
+  width: 15rem;
+  height: 15rem;
+  margin-left: 8rem;
+  margin-top: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-2 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-2:hover::before {
+  opacity: 0.7;
+}
+.container-3 {
+  width: 8rem;
+  height: 8rem;
+  margin-left: 12rem;
+  margin-top: 15rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-3 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-3:hover::before {
+  opacity: 0.7;
+}
+.container-4 {
+  width: 13rem;
+  height: 13rem;
+  margin-left: 12rem;
+  margin-top: 15rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-4 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-4:hover::before {
+  opacity: 0.7;
+}
+.container-5 {
+  width: 7rem;
+  height: 7rem;
+  margin-left: 7rem;
+  margin-top: 17rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-5 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-5::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-5:hover::before {
+  opacity: 0.7;
+}
+.container-6 {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-6 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-6:hover::before {
+  opacity: 0.7;
+}
+.container-7 {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 8rem;
+  margin-top: 7rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-7 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-7::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-7:hover::before {
+  opacity: 0.7;
+}
+.container-8 {
+  width: 8rem;
+  height: 8rem;
+  margin-left: 17rem;
+  margin-top: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-8 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-8::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-8:hover::before {
+  opacity: 0.7;
+}
+
+.container-9 {
+  width: 9rem;
+  height: 9rem;
+  margin-left: 12rem;
+  margin-top: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-9 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-9::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-9:hover::before {
+  opacity: 0.7;
+}
+
+.container-10 {
+  width: 9rem;
+  height: 9rem;
+  margin-left: 20rem;
+  margin-top: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-10 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-10::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-10:hover::before {
+  opacity: 0.7;
+}
+.container-11 {
+  width: 12rem;
+  height: 12rem;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-11 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-11::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-11:hover::before {
+  opacity: 0.7;
+}
+.container-12 {
+  width: 10rem;
+  height: 10rem;
+  margin-top: 1rem;
+  margin-left: 23rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-12 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-12::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-12:hover::before {
+  opacity: 0.7;
+}
+.container-13{
+  width: 7rem;
+  height: 7rem;
+  margin-top: 6rem;
+  margin-left: 17rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-13 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-13::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-13:hover::before {
+  opacity: 0.7;
+}
+.container-14{
+  width: 7rem;
+  height: 7rem;
+  margin-top: 10rem;
+  margin-left: 20rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-14 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-14::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-14:hover::before {
+  opacity: 0.7;
+}
+
+.container-15{
+  width: 11rem;
+  height: 11rem;
+  margin-top: 4rem;
+  margin-left: 15rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.container-15 img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.container-15::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  opacity: 0;
+  background: linear-gradient(to bottom, green, yellow);
+  transition: opacity 0.5s ease;
+}
+.container-15:hover::before {
+  opacity: 0.7;
+}
+#dedicated{
+  margin-left: 48rem;
+  margin-top: 5rem;
+}
+.dedi {
+  background-color: rgb(17, 191, 17);
+  width: 28rem;
+  height: 5rem;
+  border: none;
+  border-radius: 4rem;
+  color: white;
+}
+.dedi:hover {
+  background-color: rgb(230, 192, 69);
+}
+.dedi .fa-solid {
+  margin-left: 1rem;
+  transition: 0.1s ease-in;
+}
+.dedi .fa-solid:hover {
+  transform: translateX(50%);
+}
+.fifth{
+  height: 100vh;
+  background-color: whitesmoke;
+}
+.fifth h2{
+  padding-top: 10rem;
+  padding-left: 53rem;
+  font-size: 4rem;
+  color: rgb(11, 60, 124);
+}
+.fifth p{
+  margin-top: 3rem;
+  padding-left: 35rem;
+  color: rgb(104, 102, 102);
+  font-size: 1.6rem;
+}
+.threeb{
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 18rem;
+}
+.di{
+  border-radius: 2rem;
+  height: 30rem;
+  width: 35rem;
+  margin-left: 4rem;
+  border: none;
+  color: white;
+  background:linear-gradient(to bottom left, rgb(7, 7, 113), rgb(144, 144, 26));
+}
+.di i{
+  margin-top: 5rem;
+  margin-right: 24rem;
+  background-color: rgb(209, 209, 13);
+  border-radius: 35%;
+}
+
+.di h4{
+  padding-right: 3rem;
+  padding-top: 4rem;
+  font-size: 2.3rem;
+  padding-bottom: 2rem;
+}
+.di h6{
+  text-align: left;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.di1 i{
+  margin-top: 5rem;
+  margin-right: 23rem;
+  background-color: rgb(209, 209, 13);
+  border-radius: 35%;
+}
+.di1{
+  border-radius: 2rem;
+  height: 30rem;
+  width: 35rem;
+  margin-left: 4rem;
+  border: none;
+}
+.di1 h4{
+  padding-right: 11rem;
+  padding-top: 5rem;
+  font-size: 2.3rem;
+  padding-bottom: 2rem;
+}
+.di1 h6{
+  line-height: 2.5rem;
+  color:rgb(104, 102, 102); ;
+  text-align: left;
+  padding-left: 3rem;
+  font-size: 1.5rem;
+}
+.di1:hover{
+  background:linear-gradient(to bottom left, rgb(7, 7, 113), rgb(144, 144, 26));
+  color:white;
+}
+.di1 h6:hover{
+  color: white;
+}
+.gets {
+  background-color: rgb(17, 191, 17);
+  width: 18rem;
+  height: 5rem;
+  border: none;
+  border-radius: 4rem;
+  color: white;
+  margin-top: 4rem;
+  margin-left: 68rem;
+}
+.gets:hover {
+  background-color: rgb(230, 192, 69);
+}
+.gets .fa-solid {
+  margin-left: 1rem;
+  transition: 0.1s ease-in;
+}
+.gets .fa-solid:hover {
+  transform: translateX(50%);
+}
+.sixth{
+  height: 100vh;
+  background-color: white;
+}
+.sixth h2{
+  font-size: 4rem;
+  padding-top: 10rem;
+  padding-left: 50rem;
+  color:rgb(7, 7, 113);
+}
+.sixth img{
+  margin-left: 20rem;
+  margin-top: 10rem;
+}
+.seventh{
+  height: 50vh;
+  background-color: rgb(6, 4, 62);
+}
+.seventh h2{
+  color: white;
+  font-size: 4rem;
+  padding-top: 10rem;
+  padding-left: 42rem;
+}
+.company{
+  margin-top: 5rem;
+  margin-left: 25rem;
+}
+.company img{
+  height: 10rem;
+  width: 15rem;
+  margin-left: 2rem;
+  border-radius: 1rem;
+}
+.eighth{
+  height: 100vh;
+  background-color: white;
+}
+.eighth h2{
+  color:rgb(17, 12, 144) ;
+  font-size: 4rem;
+  padding-top: 10rem;
+  padding-left: 55rem;
+}
+.success {
+  display: flex;
+  margin-left: 8rem;
+  margin-top: 5rem;
+  
+}
+.success button{
+  height: 45rem;
+  text-align: left;
+  background-color: white;
+  border-color: yellow;
+  margin-left: 4rem;
+}
+.success button h5{
+  padding-left: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+.success button h4{
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+.success button u{
+  padding-left: 2rem;
+  color: green;
+}
+.success button u:hover{
+  color: rgb(141, 141, 9);
+}
+.success button u .fa-solid{
+    transition: 0.1s ease-in;
+}
+.success button u .fa-solid:hover {
+  transform: translateX(50%);
+}
+.ninth{
+  height: 98vh;
+  background-color: whitesmoke;
+}
+.lasst{
+  display: flex;
+}
+.ninth form{
+  height: 50rem;
+  border-color: rgb(139, 139, 16);
+  background-position: right;
+  padding: 10px;
+  padding-left: 35px;
+  margin: 100px auto 20px auto;
+  margin-top: 20rem;
+  margin-right: 30rem;
+  background-color: transparent;
+  padding-bottom: 50px;
+  width: 450px;
+  box-shadow: 2px 2px 2px 2px yellow, 2px 2px 2px 2px yellow;
+}
+.ninth form h2{
+  padding-top: 2rem;
+  font-size: 3rem;
+  color:rgb(17, 12, 144)  ;
+}
+.ninth form h4{
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  color: rgb(154, 153, 153);
+}
+.ninth form input{
+  margin-top: 3rem;
+  height: 5rem;
+  width: 38rem;
+  border-color: lightgrey;
+  font-size: 2rem;
+}
+.inputicon input[type=text]{
+  padding-left: 4rem;
+}
+.inputicon{
+  position: relative;
+}
+.inputicon i{
+  position: absolute;
+  left: 0;
+  top: 4.2rem;
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: rgb(134, 132, 132);
+}
+#email{
+  top: 12.6rem;
+}
+#call{
+  top: 20.3rem;
+}
+.sub {
+  background-color: rgb(17, 191, 17);
+  width: 15rem;
+  height: 5rem;
+  border: none;
+  border-radius: 4rem;
+  color: white;
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+}
+.sub:hover {
+  background-color: rgb(230, 192, 69);
+}
+.sub .fa-solid {
+  margin-left: 1rem;
+  transition: 0.1s ease-in;
+}
+.sub .fa-solid:hover {
+  transform: translateX(50%);
+}
+footer{
+  height: 10rem;
+  background-color: rgb(6, 4, 62);;
+  color: white;
+  padding-top: 4rem;
+  font-size: 1.5rem;
+}
+.final{
+  display: flex;
+  justify-content: space-around;
+}
